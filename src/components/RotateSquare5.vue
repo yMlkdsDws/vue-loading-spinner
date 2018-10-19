@@ -38,8 +38,10 @@ export default {
   .spinner{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     line-height: 0;
+    width: 150px;
+    height: 150px;
     * {
       line-height: 0;
       box-sizing: border-box;
