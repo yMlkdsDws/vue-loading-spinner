@@ -13,7 +13,7 @@ export default {
     },
     background: {
       default: '#41b883'
-    },
+    }
   },
   computed: {
     styles () {

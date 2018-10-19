@@ -14,7 +14,7 @@ export default {
       default: '40px'
     },
     color: {
-      default: '#41b883'
+      default: '#2476bc'
     }
   },
   computed: {

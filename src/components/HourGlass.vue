@@ -35,7 +35,7 @@ export default {
 
 <style lang="scss" scoped>
   $bg: #fff;
-  $fill:#41b883;
+  $fill:#2476bc;
   .spinner{
     display: flex;
     justify-content: center;
