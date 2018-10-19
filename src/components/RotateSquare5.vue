@@ -21,7 +21,7 @@ export default {
     innerStyles () {
       let size = parseInt(this.size)
       return {
-        transform: 'scale(' + (size / 80) + ')'
+        // transform: 'scale(' + (size / 80) + ')'
       }
     },
     styles () {
@@ -34,14 +34,12 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  $loader-color: #41b883;
+  $loader-color: #2476bc;
   .spinner{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     line-height: 0;
-    width: 150px;
-    height: 150px;
     * {
       line-height: 0;
       box-sizing: border-box;
